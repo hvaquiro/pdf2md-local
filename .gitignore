@@ -1,0 +1,27 @@
+# Entornos virtuales y cachés de Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Entradas y salidas del usuario (nunca versionar PDF ni Markdown generados)
+archivos-pdf/*
+!archivos-pdf/.gitkeep
+archivos-md*/
+verificacion/
+*.pdf
+
+# Temporales y registros
+.tmp/
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
